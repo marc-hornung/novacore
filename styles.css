@@ -97,7 +97,6 @@ h1 {
 }
 
 .shop {
-  height: 4000px;
   background: linear-gradient(180deg, rgb(20, 19, 68) 0%, rgb(104, 0, 129) 100%);
 }
 
@@ -249,4 +248,61 @@ h1 {
 }
 .cookieBanner2.vis {
   display: block;
+}
+
+footer {
+  background: linear-gradient(180deg, rgb(254, 1, 214) 0%, rgb(121, 0, 58) 100%);
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerLogo {
+  width: 200px;
+  height: auto;
+  padding-top: 10px;
+}
+
+.footerRow {
+  width: 100vw;
+}
+
+#footerBtns {
+  width: 50vw;
+  display: flex;
+  align-content: start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 40px;
+}
+
+#impressumBtns {
+  width: 50vw;
+  display: flex;
+  align-content: end;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#footerImgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 10vw;
+  margin: 2px 0 20px 0;
+}
+
+.impressumBtns {
+  background-color: transparent;
+  border: transparent;
+  font-family: "Roboto", Arial;
+  font-size: 30px;
+  margin-right: 60px;
+  padding: 5px;
+}
+.impressumBtns:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=styles.css.map */
