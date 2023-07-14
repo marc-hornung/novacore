@@ -305,4 +305,10 @@ footer {
 }
 .impressumBtns:hover {
   text-decoration: underline;
+}
+
+.kontaktformular {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }/*# sourceMappingURL=styles.css.map */
